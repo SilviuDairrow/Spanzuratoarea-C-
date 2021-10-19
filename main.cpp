@@ -51,7 +51,7 @@ void GenCuv()
 {
     char aux[31];
     srand((int)time(0));
-    int randnumb=rand()%10+1;
+    int randnumb=rand()%200+1;
     for(int i=1;i<=randnumb;++i)
     {
         f>>aux;
